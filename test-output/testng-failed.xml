@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Total Client Module]">
+  <listeners>
+    <listener class-name="com.Tests.CustomListener"/>
+  </listeners>
+  <test name="All Tests(failed)">
+    <classes>
+      <class name="com.Tests.Staff_Login_Test">
+        <methods>
+          <include name="SL_09_Verify_Login_Blank_Username_Blank_Password"/>
+          <include name="SL_05_Verify_Login_Vaild_Username_Invalid_Password"/>
+          <include name="SL_07_Verify_Login_Vaild_Username_Blank_Password"/>
+          <include name="SL_08_Verify_Login_Blank_Username_Valid_Password"/>
+          <include name="SL_06_Verify_Login_Invaild_Username_Valid_Password"/>
+          <include name="SL_04_Verify_Login_Invaild_Username_Invalid_Password"/>
+        </methods>
+      </class> <!-- com.Tests.Staff_Login_Test -->
+      <class name="com.Tests.HomePage_Test">
+        <methods>
+          <include name="Launch"/>
+          <include name="Close"/>
+        </methods>
+      </class> <!-- com.Tests.HomePage_Test -->
+    </classes>
+  </test> <!-- All Tests(failed) -->
+</suite> <!-- Failed suite [Total Client Module] -->

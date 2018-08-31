@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" total="15" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[Launch_Browser: Chrome Browser Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Launch_Application: Application Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Launch_Browser: Chrome Browser Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Launch_Application: Application Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[HP_01: PASS]]>
+    </line>
+    <line>
+      <![CDATA[HP_01: As expected http://172.22.5.34:8080/wellness/ displayed]]>
+    </line>
+    <line>
+      <![CDATA[Total images in Home page 2]]>
+    </line>
+    <line>
+      <![CDATA[2 images displayed]]>
+    </line>
+    <line>
+      <![CDATA[Total Links in Home page 1]]>
+    </line>
+    <line>
+      <![CDATA[Click here to login link is displayed and enabled ]]>
+    </line>
+    <line>
+      <![CDATA[PASS]]>
+    </line>
+    <line>
+      <![CDATA[HP_03: PASS]]>
+    </line>
+    <line>
+      <![CDATA[HP_03: Click Here To Login button is enabled ]]>
+    </line>
+    <line>
+      <![CDATA[HP_04: PASS]]>
+    </line>
+    <line>
+      <![CDATA[HP_04: As expected http://172.22.5.34:8080/wellness/login displayed]]>
+    </line>
+    <line>
+      <![CDATA[SL_01: PASS]]>
+    </line>
+    <line>
+      <![CDATA[SL_01: As expected http://172.22.5.34:8080/wellness/login displayed]]>
+    </line>
+    <line>
+      <![CDATA[SL_02: PASS]]>
+    </line>
+    <line>
+      <![CDATA[SL_02: As expected displayed Staff Login in Page as Main Heading: ]]>
+    </line>
+    <line>
+      <![CDATA[SL_03: PASS]]>
+    </line>
+    <line>
+      <![CDATA[SL_03: As expected Login button is enabled ]]>
+    </line>
+    <line>
+      <![CDATA[Entered Invalid Username]]>
+    </line>
+    <line>
+      <![CDATA[Entered Invalid Password]]>
+    </line>
+    <line>
+      <![CDATA[Entered Valid Username]]>
+    </line>
+    <line>
+      <![CDATA[Entered Invalid Password]]>
+    </line>
+    <line>
+      <![CDATA[Entered Invalid Username]]>
+    </line>
+    <line>
+      <![CDATA[Entered Valid Password]]>
+    </line>
+    <line>
+      <![CDATA[Entered Valid Username]]>
+    </line>
+    <line>
+      <![CDATA[Entered Blank Password]]>
+    </line>
+    <line>
+      <![CDATA[Blank Username]]>
+    </line>
+    <line>
+      <![CDATA[Entered Valid Password]]>
+    </line>
+    <line>
+      <![CDATA[Blank Username]]>
+    </line>
+    <line>
+      <![CDATA[Blank Password]]>
+    </line>
+    <line>
+      <![CDATA[SL_10: PASS]]>
+    </line>
+    <line>
+      <![CDATA[SL_10: As expected password characters not visible, displaying as ***** ]]>
+    </line>
+    <line>
+      <![CDATA[Entered Valid Username]]>
+    </line>
+    <line>
+      <![CDATA[Entered Valid Password]]>
+    </line>
+    <line>
+      <![CDATA[SL_09: PASS]]>
+    </line>
+    <line>
+      <![CDATA[SL_11: Appointment List Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Close_Browser: Chrome Browser Closed Successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Total Client Module" duration-ms="47293" started-at="2017-03-23T06:10:04Z" finished-at="2017-03-23T06:10:51Z">
+    <groups>
+      <group name="negative">
+        <method signature="HomePage_Test.HP_01_Verify_HomePage()[pri:0, instance:com.Tests.HomePage_Test@b9b00e0]" name="HP_01_Verify_HomePage" class="com.Tests.HomePage_Test"/>
+        <method signature="Staff_Login_Test.SL_04_Verify_Login_Invaild_Username_Invalid_Password()[pri:3, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_04_Verify_Login_Invaild_Username_Invalid_Password" class="com.Tests.Staff_Login_Test"/>
+        <method signature="Staff_Login_Test.SL_05_Verify_Login_Vaild_Username_Invalid_Password()[pri:4, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_05_Verify_Login_Vaild_Username_Invalid_Password" class="com.Tests.Staff_Login_Test"/>
+        <method signature="Staff_Login_Test.SL_06_Verify_Login_Invaild_Username_Valid_Password()[pri:5, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_06_Verify_Login_Invaild_Username_Valid_Password" class="com.Tests.Staff_Login_Test"/>
+        <method signature="Staff_Login_Test.SL_07_Verify_Login_Vaild_Username_Blank_Password()[pri:6, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_07_Verify_Login_Vaild_Username_Blank_Password" class="com.Tests.Staff_Login_Test"/>
+        <method signature="Staff_Login_Test.SL_08_Verify_Login_Blank_Username_Valid_Password()[pri:7, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_08_Verify_Login_Blank_Username_Valid_Password" class="com.Tests.Staff_Login_Test"/>
+        <method signature="Staff_Login_Test.SL_09_Verify_Login_Blank_Username_Blank_Password()[pri:8, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_09_Verify_Login_Blank_Username_Blank_Password" class="com.Tests.Staff_Login_Test"/>
+      </group> <!-- negative -->
+      <group name="positive">
+        <method signature="HomePage_Test.HP_01_Verify_HomePage()[pri:0, instance:com.Tests.HomePage_Test@b9b00e0]" name="HP_01_Verify_HomePage" class="com.Tests.HomePage_Test"/>
+        <method signature="HomePage_Test.HP_03_Verify_Click_here_to_login_button()[pri:2, instance:com.Tests.HomePage_Test@b9b00e0]" name="HP_03_Verify_Click_here_to_login_button" class="com.Tests.HomePage_Test"/>
+        <method signature="HomePage_Test.HP_04_Verify_StaffLoginPage()[pri:3, instance:com.Tests.HomePage_Test@b9b00e0]" name="HP_04_Verify_StaffLoginPage" class="com.Tests.HomePage_Test"/>
+        <method signature="HomePage_Test.HP_Verify_UI()[pri:1, instance:com.Tests.HomePage_Test@b9b00e0]" name="HP_Verify_UI" class="com.Tests.HomePage_Test"/>
+        <method signature="Staff_Login_Test.SL_01_Verify_Staff_Login_Page()[pri:0, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_01_Verify_Staff_Login_Page" class="com.Tests.Staff_Login_Test"/>
+        <method signature="Staff_Login_Test.SL_02_Verify_Main_Heading()[pri:1, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_02_Verify_Main_Heading" class="com.Tests.Staff_Login_Test"/>
+        <method signature="Staff_Login_Test.SL_03_Verify_LoginButton()[pri:2, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_03_Verify_LoginButton" class="com.Tests.Staff_Login_Test"/>
+        <method signature="Staff_Login_Test.SL_10_Verify_Password_Visibility()[pri:9, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_10_Verify_Password_Visibility" class="com.Tests.Staff_Login_Test"/>
+        <method signature="Staff_Login_Test.SL_11_Verify_Login_Valid_Username_Valid_Password()[pri:10, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_11_Verify_Login_Valid_Username_Valid_Password" class="com.Tests.Staff_Login_Test"/>
+      </group> <!-- positive -->
+    </groups>
+    <test name="All Tests" duration-ms="47293" started-at="2017-03-23T06:10:04Z" finished-at="2017-03-23T06:10:51Z">
+      <class name="com.Tests.Staff_Login_Test">
+        <test-method status="PASS" signature="SL_01_Verify_Staff_Login_Page()[pri:0, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_01_Verify_Staff_Login_Page" duration-ms="6" started-at="2017-03-23T11:40:10Z" finished-at="2017-03-23T11:40:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SL_01: PASS]]>
+            </line>
+            <line>
+              <![CDATA[SL_01: As expected http://172.22.5.34:8080/wellness/login displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SL_01_Verify_Staff_Login_Page -->
+        <test-method status="PASS" signature="SL_02_Verify_Main_Heading()[pri:1, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_02_Verify_Main_Heading" duration-ms="1036" started-at="2017-03-23T11:40:10Z" finished-at="2017-03-23T11:40:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SL_02: PASS]]>
+            </line>
+            <line>
+              <![CDATA[SL_02: As expected displayed Staff Login in Page as Main Heading: ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SL_02_Verify_Main_Heading -->
+        <test-method status="PASS" signature="SL_03_Verify_LoginButton()[pri:2, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_03_Verify_LoginButton" duration-ms="61" started-at="2017-03-23T11:40:11Z" finished-at="2017-03-23T11:40:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SL_03: PASS]]>
+            </line>
+            <line>
+              <![CDATA[SL_03: As expected Login button is enabled ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SL_03_Verify_LoginButton -->
+        <test-method status="FAIL" signature="SL_04_Verify_Login_Invaild_Username_Invalid_Password()[pri:3, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_04_Verify_Login_Invaild_Username_Invalid_Password" duration-ms="5522" started-at="2017-03-23T11:40:11Z" finished-at="2017-03-23T11:40:17Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.PageLibrary.Staff_Login.sl_04_Verify_Staff_Login_InValid_Username_InValid_Password(Staff_Login.java:96)
+	at com.Tests.Staff_Login_Test.SL_04_Verify_Login_Invaild_Username_Invalid_Password(Staff_Login_Test.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Entered Invalid Username]]>
+            </line>
+            <line>
+              <![CDATA[Entered Invalid Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SL_04_Verify_Login_Invaild_Username_Invalid_Password -->
+        <test-method status="FAIL" signature="SL_05_Verify_Login_Vaild_Username_Invalid_Password()[pri:4, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_05_Verify_Login_Vaild_Username_Invalid_Password" duration-ms="5638" started-at="2017-03-23T11:40:17Z" finished-at="2017-03-23T11:40:23Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.PageLibrary.Staff_Login.sl_05_Verify_Staff_Login_Valid_Username_InValid_Password(Staff_Login.java:159)
+	at com.Tests.Staff_Login_Test.SL_05_Verify_Login_Vaild_Username_Invalid_Password(Staff_Login_Test.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Entered Valid Username]]>
+            </line>
+            <line>
+              <![CDATA[Entered Invalid Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SL_05_Verify_Login_Vaild_Username_Invalid_Password -->
+        <test-method status="FAIL" signature="SL_06_Verify_Login_Invaild_Username_Valid_Password()[pri:5, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_06_Verify_Login_Invaild_Username_Valid_Password" duration-ms="5524" started-at="2017-03-23T11:40:23Z" finished-at="2017-03-23T11:40:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.PageLibrary.Staff_Login.sl_06_Verify_Staff_Login_InValid_Username_Valid_Password(Staff_Login.java:204)
+	at com.Tests.Staff_Login_Test.SL_06_Verify_Login_Invaild_Username_Valid_Password(Staff_Login_Test.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Entered Invalid Username]]>
+            </line>
+            <line>
+              <![CDATA[Entered Valid Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SL_06_Verify_Login_Invaild_Username_Valid_Password -->
+        <test-method status="FAIL" signature="SL_07_Verify_Login_Vaild_Username_Blank_Password()[pri:6, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_07_Verify_Login_Vaild_Username_Blank_Password" duration-ms="5586" started-at="2017-03-23T11:40:28Z" finished-at="2017-03-23T11:40:34Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.PageLibrary.Staff_Login.sl_07_Verify_Staff_Login_Valid_Username_Blank_Password(Staff_Login.java:248)
+	at com.Tests.Staff_Login_Test.SL_07_Verify_Login_Vaild_Username_Blank_Password(Staff_Login_Test.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Entered Valid Username]]>
+            </line>
+            <line>
+              <![CDATA[Entered Blank Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SL_07_Verify_Login_Vaild_Username_Blank_Password -->
+        <test-method status="FAIL" signature="SL_08_Verify_Login_Blank_Username_Valid_Password()[pri:7, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_08_Verify_Login_Blank_Username_Valid_Password" duration-ms="5517" started-at="2017-03-23T11:40:34Z" finished-at="2017-03-23T11:40:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.PageLibrary.Staff_Login.sl_08_Verify_Staff_Login_Blank_Username_Valid_Password(Staff_Login.java:293)
+	at com.Tests.Staff_Login_Test.SL_08_Verify_Login_Blank_Username_Valid_Password(Staff_Login_Test.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Blank Username]]>
+            </line>
+            <line>
+              <![CDATA[Entered Valid Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SL_08_Verify_Login_Blank_Username_Valid_Password -->
+        <test-method status="FAIL" signature="SL_09_Verify_Login_Blank_Username_Blank_Password()[pri:8, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_09_Verify_Login_Blank_Username_Blank_Password" duration-ms="5507" started-at="2017-03-23T11:40:39Z" finished-at="2017-03-23T11:40:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.PageLibrary.Staff_Login.sl_09_Verify_Staff_Login_Blank_Username_Blank_Password(Staff_Login.java:338)
+	at com.Tests.Staff_Login_Test.SL_09_Verify_Login_Blank_Username_Blank_Password(Staff_Login_Test.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Blank Username]]>
+            </line>
+            <line>
+              <![CDATA[Blank Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SL_09_Verify_Login_Blank_Username_Blank_Password -->
+        <test-method status="PASS" signature="SL_10_Verify_Password_Visibility()[pri:9, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_10_Verify_Password_Visibility" duration-ms="32" started-at="2017-03-23T11:40:45Z" finished-at="2017-03-23T11:40:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SL_10: PASS]]>
+            </line>
+            <line>
+              <![CDATA[SL_10: As expected password characters not visible, displaying as ***** ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SL_10_Verify_Password_Visibility -->
+        <test-method status="PASS" signature="SL_11_Verify_Login_Valid_Username_Valid_Password()[pri:10, instance:com.Tests.Staff_Login_Test@506ae4d4]" name="SL_11_Verify_Login_Valid_Username_Valid_Password" duration-ms="5861" started-at="2017-03-23T11:40:45Z" finished-at="2017-03-23T11:40:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered Valid Username]]>
+            </line>
+            <line>
+              <![CDATA[Entered Valid Password]]>
+            </line>
+            <line>
+              <![CDATA[SL_09: PASS]]>
+            </line>
+            <line>
+              <![CDATA[SL_11: Appointment List Page displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SL_11_Verify_Login_Valid_Username_Valid_Password -->
+      </class> <!-- com.Tests.Staff_Login_Test -->
+      <class name="com.Tests.HomePage_Test">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:com.Tests.HomePage_Test@b9b00e0]" name="Launch" is-config="true" duration-ms="5" started-at="2017-03-23T11:40:04Z" finished-at="2017-03-23T11:40:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch_Browser: Chrome Browser Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Launch_Application: Application Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="HP_01_Verify_HomePage()[pri:0, instance:com.Tests.HomePage_Test@b9b00e0]" name="HP_01_Verify_HomePage" duration-ms="1646" started-at="2017-03-23T11:40:04Z" finished-at="2017-03-23T11:40:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[HP_01: PASS]]>
+            </line>
+            <line>
+              <![CDATA[HP_01: As expected http://172.22.5.34:8080/wellness/ displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HP_01_Verify_HomePage -->
+        <test-method status="PASS" signature="HP_Verify_UI()[pri:1, instance:com.Tests.HomePage_Test@b9b00e0]" name="HP_Verify_UI" duration-ms="131" started-at="2017-03-23T11:40:05Z" finished-at="2017-03-23T11:40:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Total images in Home page 2]]>
+            </line>
+            <line>
+              <![CDATA[2 images displayed]]>
+            </line>
+            <line>
+              <![CDATA[Total Links in Home page 1]]>
+            </line>
+            <line>
+              <![CDATA[Click here to login link is displayed and enabled ]]>
+            </line>
+            <line>
+              <![CDATA[PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HP_Verify_UI -->
+        <test-method status="PASS" signature="HP_03_Verify_Click_here_to_login_button()[pri:2, instance:com.Tests.HomePage_Test@b9b00e0]" name="HP_03_Verify_Click_here_to_login_button" duration-ms="29" started-at="2017-03-23T11:40:06Z" finished-at="2017-03-23T11:40:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[HP_03: PASS]]>
+            </line>
+            <line>
+              <![CDATA[HP_03: Click Here To Login button is enabled ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HP_03_Verify_Click_here_to_login_button -->
+        <test-method status="PASS" signature="HP_04_Verify_StaffLoginPage()[pri:3, instance:com.Tests.HomePage_Test@b9b00e0]" name="HP_04_Verify_StaffLoginPage" duration-ms="4546" started-at="2017-03-23T11:40:06Z" finished-at="2017-03-23T11:40:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[HP_04: PASS]]>
+            </line>
+            <line>
+              <![CDATA[HP_04: As expected http://172.22.5.34:8080/wellness/login displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HP_04_Verify_StaffLoginPage -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Tests.HomePage_Test@b9b00e0]" name="Close" is-config="true" duration-ms="65" started-at="2017-03-23T11:40:51Z" finished-at="2017-03-23T11:40:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Close_Browser: Chrome Browser Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.Tests.HomePage_Test -->
+    </test> <!-- All Tests -->
+  </suite> <!-- Total Client Module -->
+</testng-results>

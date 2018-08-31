@@ -1,0 +1,19 @@
+<suite name="Total Client Module" verbose="1" >
+<listeners>
+	  <listener class-name="com.Tests.CustomListener" />
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="com.Tests.CustomListener"/>
+ 
+</listeners>
+  <test name="All Tests" >
+    <classes>
+      <class name ="com.Tests.CustomListener"/>
+ 	   <class name ="com.Tests.HomePage_Test"/>
+      	<class name = "com.Tests.Staff_Login_Test"/>
+	<!--	 <class name = "com.Tests.New_Client_Registration_Test"/> -->
+   <!-- <class name = "com.Tests.Exist_Guest_Details_Test"/> -->
+   <!--      <class name = "com.Tests.Appointment_List_Test"/>  -->
+    </classes>
+  </test>
+</suite>
